@@ -30,7 +30,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyppeteer aiofiles requests
           pip install --upgrade pyppeteer
-          curl ip-api.com
+          
 
       - name: 运行登录脚本
         env:
